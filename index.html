@@ -1,1 +1,78 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Grafted Tomato Rhythms</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            /* font-family: 'Arial', sans-serif; /* Use a more elegant display font if available */
+            font-family: "Lora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px; /* Adjust the max-width as needed */
+            text-align: center;
+        }
+
+        .header {
+            font-size: 2em;
+            /* font-family: 'Georgia', serif; /* You can change to a more elegant display font */
+            /* font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif; */
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-style: italic;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .separator {
+            width: 100%;
+            height: 2px;
+            background-color: white;
+            margin: 0.5em 0;
+        }
+
+        .video-container {
+            width: 100%;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Grafted Tomato Rhythms</div>
+        <div class="separator"></div>
+        <div class="video-container">
+            <video src="tomato.mp4" autoplay loop muted></video>
+        </div>
+        <div class="footer">© Dimitrios Paparas, 2024</div>
+    </div>
+</body>
+</html>
